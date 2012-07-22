@@ -13,6 +13,10 @@ link:http://atnd.org/events/30549
 
 とすると、bundlerを使って、RailsやFrankなどの依存ライブラリをインストールします。
 
+Xcodeのプロジェクトを開いて、AppDelegate.mを修正してください。
+apiEndPointというメソッドの実装に私のマシン名が含まれています。
+これを適切な名前に修正して、保存してください。
+
   $ cd chef-pad-client && frank build
 
 とすると、Frank対応版のクライアントアプリをビルドします。
