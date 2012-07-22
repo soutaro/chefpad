@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5FCC7A15B3CEF000BCCF6D /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5FCC7915B3CEF000BCCF6D /* RecipesViewController.m */; };
+		AB5FCC7E15B3CF1000BCCF6D /* NewRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5FCC7D15B3CF1000BCCF6D /* NewRecipeViewController.m */; };
+		AB5FCC8015B3D10E00BCCF6D /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5FCC7F15B3D10E00BCCF6D /* RecipeTableViewCell.xib */; };
+		AB5FCC8315B3D13C00BCCF6D /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5FCC8215B3D13C00BCCF6D /* RecipeTableViewCell.m */; };
+		ABAD38F815B32261008CA36D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAD38F715B32261008CA36D /* UIKit.framework */; };
+		ABAD38FA15B32261008CA36D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAD38F915B32261008CA36D /* Foundation.framework */; };
+		ABAD38FC15B32261008CA36D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAD38FB15B32261008CA36D /* CoreGraphics.framework */; };
+		ABAD390215B32261008CA36D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABAD390015B32261008CA36D /* InfoPlist.strings */; };
+		ABAD390415B32261008CA36D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD390315B32261008CA36D /* main.m */; };
+		ABAD390815B32261008CA36D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD390715B32261008CA36D /* AppDelegate.m */; };
+		ABAD391615B32262008CA36D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAD391515B32262008CA36D /* SenTestingKit.framework */; };
+		ABAD391715B32262008CA36D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAD38F715B32261008CA36D /* UIKit.framework */; };
+		ABAD391815B32262008CA36D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAD38F915B32261008CA36D /* Foundation.framework */; };
+		ABAD392015B32262008CA36D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABAD391E15B32262008CA36D /* InfoPlist.strings */; };
+		ABAD392315B32262008CA36D /* chef_pad_clientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD392215B32262008CA36D /* chef_pad_clientTests.m */; };
+		ABAD392E15B32374008CA36D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD392D15B32374008CA36D /* LoginViewController.m */; };
+		ABAD393515B32422008CA36D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAD393415B32422008CA36D /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABAD391915B32262008CA36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABAD38EA15B32261008CA36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAD38F215B32261008CA36D;
+			remoteInfo = "chief-pad-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB5FCC7815B3CEF000BCCF6D /* RecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesViewController.h; sourceTree = "<group>"; };
+		AB5FCC7915B3CEF000BCCF6D /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesViewController.m; sourceTree = "<group>"; };
+		AB5FCC7C15B3CF1000BCCF6D /* NewRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecipeViewController.h; sourceTree = "<group>"; };
+		AB5FCC7D15B3CF1000BCCF6D /* NewRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecipeViewController.m; sourceTree = "<group>"; };
+		AB5FCC7F15B3D10E00BCCF6D /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		AB5FCC8115B3D13C00BCCF6D /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
+		AB5FCC8215B3D13C00BCCF6D /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
+		ABAD38F315B32261008CA36D /* chef-pad-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chef-pad-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAD38F715B32261008CA36D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABAD38F915B32261008CA36D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABAD38FB15B32261008CA36D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABAD38FF15B32261008CA36D /* chef-pad-client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chef-pad-client-Info.plist"; sourceTree = "<group>"; };
+		ABAD390115B32261008CA36D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABAD390315B32261008CA36D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABAD390515B32261008CA36D /* chef-pad-client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chef-pad-client-Prefix.pch"; sourceTree = "<group>"; };
+		ABAD390615B32261008CA36D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABAD390715B32261008CA36D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABAD391415B32262008CA36D /* chief-pad-clientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "chief-pad-clientTests.octest"; path = "chef-pad-clientTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAD391515B32262008CA36D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ABAD391D15B32262008CA36D /* chef-pad-clientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chef-pad-clientTests-Info.plist"; sourceTree = "<group>"; };
+		ABAD391F15B32262008CA36D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABAD392115B32262008CA36D /* chef_pad_clientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chef_pad_clientTests.h; sourceTree = "<group>"; };
+		ABAD392215B32262008CA36D /* chef_pad_clientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chef_pad_clientTests.m; sourceTree = "<group>"; };
+		ABAD392C15B32374008CA36D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		ABAD392D15B32374008CA36D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		ABAD393415B32422008CA36D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABAD38F015B32261008CA36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD38F815B32261008CA36D /* UIKit.framework in Frameworks */,
+				ABAD38FA15B32261008CA36D /* Foundation.framework in Frameworks */,
+				ABAD38FC15B32261008CA36D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD391015B32262008CA36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD391615B32262008CA36D /* SenTestingKit.framework in Frameworks */,
+				ABAD391715B32262008CA36D /* UIKit.framework in Frameworks */,
+				ABAD391815B32262008CA36D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAD38E815B32261008CA36D = {
+			isa = PBXGroup;
+			children = (
+				ABAD38FD15B32261008CA36D /* chef-pad-client */,
+				ABAD391B15B32262008CA36D /* chef-pad-clientTests */,
+				ABAD38F615B32261008CA36D /* Frameworks */,
+				ABAD38F415B32261008CA36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABAD38F415B32261008CA36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD38F315B32261008CA36D /* chef-pad-client.app */,
+				ABAD391415B32262008CA36D /* chief-pad-clientTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABAD38F615B32261008CA36D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD38F715B32261008CA36D /* UIKit.framework */,
+				ABAD38F915B32261008CA36D /* Foundation.framework */,
+				ABAD38FB15B32261008CA36D /* CoreGraphics.framework */,
+				ABAD391515B32262008CA36D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABAD38FD15B32261008CA36D /* chef-pad-client */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD390615B32261008CA36D /* AppDelegate.h */,
+				ABAD390715B32261008CA36D /* AppDelegate.m */,
+				ABAD38FE15B32261008CA36D /* Supporting Files */,
+				ABAD392C15B32374008CA36D /* LoginViewController.h */,
+				ABAD392D15B32374008CA36D /* LoginViewController.m */,
+				ABAD393415B32422008CA36D /* MainStoryboard.storyboard */,
+				AB5FCC7815B3CEF000BCCF6D /* RecipesViewController.h */,
+				AB5FCC7915B3CEF000BCCF6D /* RecipesViewController.m */,
+				AB5FCC7C15B3CF1000BCCF6D /* NewRecipeViewController.h */,
+				AB5FCC7D15B3CF1000BCCF6D /* NewRecipeViewController.m */,
+				AB5FCC7F15B3D10E00BCCF6D /* RecipeTableViewCell.xib */,
+				AB5FCC8115B3D13C00BCCF6D /* RecipeTableViewCell.h */,
+				AB5FCC8215B3D13C00BCCF6D /* RecipeTableViewCell.m */,
+			);
+			path = "chef-pad-client";
+			sourceTree = "<group>";
+		};
+		ABAD38FE15B32261008CA36D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD38FF15B32261008CA36D /* chef-pad-client-Info.plist */,
+				ABAD390015B32261008CA36D /* InfoPlist.strings */,
+				ABAD390315B32261008CA36D /* main.m */,
+				ABAD390515B32261008CA36D /* chef-pad-client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABAD391B15B32262008CA36D /* chef-pad-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD392115B32262008CA36D /* chef_pad_clientTests.h */,
+				ABAD392215B32262008CA36D /* chef_pad_clientTests.m */,
+				ABAD391C15B32262008CA36D /* Supporting Files */,
+			);
+			path = "chef-pad-clientTests";
+			sourceTree = "<group>";
+		};
+		ABAD391C15B32262008CA36D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD391D15B32262008CA36D /* chef-pad-clientTests-Info.plist */,
+				ABAD391E15B32262008CA36D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABAD38F215B32261008CA36D /* chef-pad-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAD392615B32262008CA36D /* Build configuration list for PBXNativeTarget "chef-pad-client" */;
+			buildPhases = (
+				ABAD38EF15B32261008CA36D /* Sources */,
+				ABAD38F015B32261008CA36D /* Frameworks */,
+				ABAD38F115B32261008CA36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chef-pad-client";
+			productName = "chief-pad-client";
+			productReference = ABAD38F315B32261008CA36D /* chef-pad-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABAD391315B32262008CA36D /* chef-pad-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAD392915B32262008CA36D /* Build configuration list for PBXNativeTarget "chef-pad-clientTests" */;
+			buildPhases = (
+				ABAD390F15B32262008CA36D /* Sources */,
+				ABAD391015B32262008CA36D /* Frameworks */,
+				ABAD391115B32262008CA36D /* Resources */,
+				ABAD391215B32262008CA36D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABAD391A15B32262008CA36D /* PBXTargetDependency */,
+			);
+			name = "chef-pad-clientTests";
+			productName = "chief-pad-clientTests";
+			productReference = ABAD391415B32262008CA36D /* chief-pad-clientTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABAD38EA15B32261008CA36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Soutaro Matsumoto";
+			};
+			buildConfigurationList = ABAD38ED15B32261008CA36D /* Build configuration list for PBXProject "chef-pad-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABAD38E815B32261008CA36D;
+			productRefGroup = ABAD38F415B32261008CA36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABAD38F215B32261008CA36D /* chef-pad-client */,
+				ABAD391315B32262008CA36D /* chef-pad-clientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABAD38F115B32261008CA36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD390215B32261008CA36D /* InfoPlist.strings in Resources */,
+				ABAD393515B32422008CA36D /* MainStoryboard.storyboard in Resources */,
+				AB5FCC8015B3D10E00BCCF6D /* RecipeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD391115B32262008CA36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD392015B32262008CA36D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABAD391215B32262008CA36D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABAD38EF15B32261008CA36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD390415B32261008CA36D /* main.m in Sources */,
+				ABAD390815B32261008CA36D /* AppDelegate.m in Sources */,
+				ABAD392E15B32374008CA36D /* LoginViewController.m in Sources */,
+				AB5FCC7A15B3CEF000BCCF6D /* RecipesViewController.m in Sources */,
+				AB5FCC7E15B3CF1000BCCF6D /* NewRecipeViewController.m in Sources */,
+				AB5FCC8315B3D13C00BCCF6D /* RecipeTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD390F15B32262008CA36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD392315B32262008CA36D /* chef_pad_clientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABAD391A15B32262008CA36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABAD38F215B32261008CA36D /* chef-pad-client */;
+			targetProxy = ABAD391915B32262008CA36D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABAD390015B32261008CA36D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAD390115B32261008CA36D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABAD391E15B32262008CA36D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAD391F15B32262008CA36D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABAD392415B32262008CA36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ABAD392515B32262008CA36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABAD392715B32262008CA36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chef-pad-client/chef-pad-client-Prefix.pch";
+				INFOPLIST_FILE = "chef-pad-client/chef-pad-client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABAD392815B32262008CA36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chef-pad-client/chef-pad-client-Prefix.pch";
+				INFOPLIST_FILE = "chef-pad-client/chef-pad-client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABAD392A15B32262008CA36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chief-pad-client.app/chief-pad-client";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chief-pad-client/chief-pad-client-Prefix.pch";
+				INFOPLIST_FILE = "chef-pad-clientTests/chef-pad-clientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ABAD392B15B32262008CA36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chief-pad-client.app/chief-pad-client";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chief-pad-client/chief-pad-client-Prefix.pch";
+				INFOPLIST_FILE = "chef-pad-clientTests/chef-pad-clientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABAD38ED15B32261008CA36D /* Build configuration list for PBXProject "chef-pad-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD392415B32262008CA36D /* Debug */,
+				ABAD392515B32262008CA36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAD392615B32262008CA36D /* Build configuration list for PBXNativeTarget "chef-pad-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD392715B32262008CA36D /* Debug */,
+				ABAD392815B32262008CA36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAD392915B32262008CA36D /* Build configuration list for PBXNativeTarget "chef-pad-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD392A15B32262008CA36D /* Debug */,
+				ABAD392B15B32262008CA36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABAD38EA15B32261008CA36D /* Project object */;
+}
